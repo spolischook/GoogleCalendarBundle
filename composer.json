@@ -1,0 +1,26 @@
+{
+    "name": "spolischook/google-calendar-bundle",
+    "type": "symfony-bundle",
+    "description": "Provide wrapper for Google Calendar Api for Symfony framework",
+    "keywords": ["gdata", "google calendar", "gapi"],
+    "homepage": "http://kotoblog.pp.ua",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey Polischuk",
+            "email": "spolischook@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/framework-bundle": ">=2.3.0",
+        "misd/guzzle-bundle": "1.1.*@dev",
+        "jms/serializer-bundle": "0.13.*@dev",
+        "spolischook/google-api-php-client": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "Spolischook\\GoogleCalendarBundle\\": "" }
+    },
+    "target-dir": "Spolischook/GoogleCalendarBundle",
+    "minimum-stability": "dev"
+}
